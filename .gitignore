@@ -1,0 +1,18 @@
+# Ignore env files
+.env
+.env.*
+*.env
+**/.env
+**/.env.*
+
+# Logs & OS files
+*.log
+.DS_Store
+
+# Node/JS builds
+node_modules/
+dist/
+build/
+
+# Editors
+.vscode/
