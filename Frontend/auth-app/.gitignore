@@ -1,0 +1,30 @@
+# Node.js backend
+node_modules/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Logs
+logs/
+*.log
+logs/*.log
+# OS files
+.DS_Store
+Thumbs.db
+# Editor folders/files
+.vscode/
+.idea/
+*.swp
+# Build folders
+dist/
+build/
+# React frontend
+# If your React app is inside a subfolder like 'client' or 'frontend', ignore its node_modules and build:
+# If frontend is inside 'client/' or 'frontend/' folder, adjust paths accordingly:
+client/node_modules/
+client/build/
+# Or if frontend is in root with backend (monorepo style):
+node_modules/
+build/
+# Optional: coverage reports
+coverage/

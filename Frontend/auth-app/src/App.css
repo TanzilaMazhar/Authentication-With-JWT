@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  padding: 2rem;
+}
+
+.auth-card {
+  background: var(--panel);
+  border-radius: 12px;
+  padding: 2rem;
+  width: 360px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+.auth-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+}
+
+.auth-subtitle {
+  font-size: 14px;
+  margin: 0 0 1.5rem;
+}
+
+.auth-form-group {
+  margin-bottom: 1.25rem;
+}
+
+.auth-label {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.auth-input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: rgb(213, 211, 211);
+  font-size: 14px;
+}
+
+.auth-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.auth-link {
+  background: none;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.auth-link:hover {
+  text-decoration: underline;
+}
+
+.auth-button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 0.5rem;
+  background: rgb(69, 184, 190);
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+
+.auth-footer {
+  margin-top: 1rem;
+  font-size: 13px;
+  text-align: center;
+}
+
+.auth-footer .auth-link {
+  margin-left: 4px;
+  font-weight: 500;
+  color: rgb(69, 184, 190);
+  ;
+}
+
+.auth-message {
+  margin-top: 1rem;
+  font-size: 14px;
+}
+
+.auth-card p {
+  overflow-wrap: anywhere;
+}
+
+.auth-message.success {
+  color:#088d39;
+}
+
+.auth-message.error {
+  color: #EF4444;
+}
+
+.auth-divider {
+  margin: 1.5rem 0;
+  border: none;
+}
+
+
+/* _____________DASHBOARD CSS______________ */
+.navbar {
+  background-color: #0fe0e0;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.navbar-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 10px;
+}
+
+.profile-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 600px;
+}
+
+.profile-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.profile-form-group {
+  margin-bottom: 15px;
+}
+
+.profile-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.profile-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+
