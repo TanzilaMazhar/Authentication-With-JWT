@@ -12,7 +12,7 @@ It has two parts: **Frontend** (React/Vite) and **Backend** (Node.js/Express).
 1. **Backend** :
 cd "Backend/auth-backend"
 npm install
-npm run dev
+nodemon server.js
 The server will run on http://localhost:5000
 
 2. **Frontend** :
