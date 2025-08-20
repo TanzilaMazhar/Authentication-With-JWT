@@ -9,7 +9,7 @@ It has two parts: **Frontend** (React/Vite) and **Backend** (Node.js/Express).
 - **.gitignore** → Ignores sensitive files like `.env`
 
 ## How to Run
-2. **Backend** :
+1. **Backend** :
 cd "Backend/auth-backend"
 npm install
 npm run dev
@@ -20,3 +20,4 @@ cd "Frontend/auth-app"
 npm install
 npm run dev
 The app will run on http://localhost:5173
+
